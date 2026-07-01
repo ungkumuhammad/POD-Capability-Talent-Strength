@@ -40,19 +40,23 @@ and where it bites hardest.
 
 ## Latest questionnaire
 
-The current master question list lives at:
+`deliverables/Survey_Question_Master_List.md` is the **single source of truth**
+for the survey questions — the only questions file Claude should ever refer to
+when asked about the questionnaire (question count, content, themes, etc.).
+Do not answer questions-related queries from any other file, memory, or guess.
 
 - `deliverables/Survey_Question_Master_List.md` — **always read this one** for
   the up-to-date set of questions. It's a Markdown rendition (produced with
   [markitdown](https://github.com/microsoft/markitdown)) of the `.xlsx` below.
 - `deliverables/Survey_Question_Master_List.xlsx` — the same content as the
-  source spreadsheet.
+  source spreadsheet, kept in sync with the `.md` above.
 
 Whenever a newer questionnaire replaces these files, move the outgoing
 `Survey_Question_Master_List.*` files into `deliverables/superseded/` first
 (don't delete them), then write the new files at the paths above. Older
 versions live in `deliverables/superseded/` for history only — never treat
-them as current.
+them as current, and never refer to them when answering questions about the
+survey.
 
 ## Working conventions for Claude
 
