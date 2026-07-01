@@ -20,9 +20,14 @@ hinder the growth and promotion of talent in both:
 - **Technical groups** — engineering and project management
 - **Non-technical groups** — all other functions
 
-## Objective
+## Main objective
 
-Validate the problem above by running a **quick survey** to Gentari staff across
+**Talent growth and retention are constrained (issue)** due to **insufficient
+structured development and unclear capability pathways (root cause)**, leading
+to a **weakened talent pipeline and reduced organisational capability (impact)**
+to deliver the **$613 million EBITDA target for 2030**.
+
+Validate this problem by running a **quick survey** to Gentari staff across
 markets, deliberately covering both technical and non-technical staff. The survey
 findings should evidence whether the talent-development / career-path gap is real
 and where it bites hardest.
