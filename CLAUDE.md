@@ -33,6 +33,22 @@ and where it bites hardest.
 - Questions are collected from contributors, then **consolidated into a single
   Excel file** as the master list for the questionnaire sent to targeted staff.
 
+## Latest questionnaire
+
+The current master question list lives at:
+
+- `deliverables/Survey_Question_Master_List.md` — **always read this one** for
+  the up-to-date set of questions. It's a Markdown rendition (produced with
+  [markitdown](https://github.com/microsoft/markitdown)) of the `.xlsx` below.
+- `deliverables/Survey_Question_Master_List.xlsx` — the same content as the
+  source spreadsheet.
+
+Whenever a newer questionnaire replaces these files, move the outgoing
+`Survey_Question_Master_List.*` files into `deliverables/superseded/` first
+(don't delete them), then write the new files at the paths above. Older
+versions live in `deliverables/superseded/` for history only — never treat
+them as current.
+
 ## Working conventions for Claude
 
 When asked to help in this repo, follow these defaults:
